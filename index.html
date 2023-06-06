@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Divisible For 3 & 5</title>
+        <meta charset ="utf-8">
+		<meta name="description" content=""/>
+		<meta name="keywords" content="HTML,CSS,Java script"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    </head>
+    <body>
+        <script>
+            var a = parseInt(prompt("Enter the Value"));
+
+            if(a%3==0 && a%5!=0){
+                console.log("Buzz");
+            }
+            else if(a%5==0 && a%3!=0){
+                console.log("Bizz");
+            }
+            else if(a%5==0 && a%3==0){
+                console.log("Buzz,Bizz");
+            }
+            else{
+                console.log("Not Divisible for your value");
+            }
+        </script>
+    </body>
